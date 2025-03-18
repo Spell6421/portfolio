@@ -2,17 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sunny's Portfolio</title>
+  <title>Sunny's Portfolio – About</title>
+  <!-- Link to the external CSS file -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- Header section -->
   <header>
-    <h1>Welcome to My Portfolio!</h1>
+    <!-- Logo on the left: small image + name -->
+    <div class="logo">
+      <!-- Replace 'me.png' with your actual image file -->
+      <img src="me.png" alt="Logo image of Sunny" class="logo-image">
+      <span class="logo-text">Sunny</span>
+    </div>
+
+    <!-- Page title in the center -->
+    <h1 class="page-title">&lt;about&gt;</h1>
+
+    <!-- Navigation links on the right -->
+    <nav class="nav-links">
+      <a href="#">projects</a>
+      <a href="#">skills</a>
+      <a href="#">contact</a>
+    </nav>
   </header>
 
+  <!-- Main content -->
   <main>
-    <p>My name is Sunny, and I'm a freshman studying Computer Science. Welcome to my personal website!</p>
-    <p>This is where my projects and skills will appear soon.</p>
+    <section class="introduction">
+      <!-- Large picture on the left -->
+      <div class="profile-pic-container">
+        <!-- Replace 'profile.jpg' with your actual photo file -->
+        <img src="me.png" alt="Picture of Sunny" class="profile-pic">
+      </div>
+
+      <!-- Intro text on the right -->
+      <div class="intro-text">
+        <h2>Hi, I'm Sunny</h2>
+        <p>
+          <!-- Your introduction text here -->
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
+          gravida, nunc in faucibus tincidunt, purus mauris lobortis orci, 
+          a iaculis lorem arcu eu risus. Pellentesque habitant morbi 
+          tristique senectus et netus et malesuada fames ac turpis egestas.
+        </p>
+
+        <!-- Buttons for Resume, LinkedIn, GitHub -->
+        <div class="intro-buttons">
+          <a href="resume.pdf" class="btn" target="_blank">Resume</a>
+          <a href="https://www.linkedin.com/in/YourProfile" class="btn" target="_blank">LinkedIn</a>
+          <a href="https://github.com/YourUsername" class="btn" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- Footer with </about> -->
+  <footer>
+    <p class="footer-tag">&lt;/about&gt;</p>
+  </footer>
+
 </body>
 </html>
